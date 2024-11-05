@@ -1,0 +1,16 @@
+programa
+{
+   funcao inicio ()
+   {
+      inteiro numero
+
+      escreva ("digite o numero para ver a sua taboada ")
+      leia (numero)
+
+      para (inteiro i = 1; <= 10; i++)
+      {
+        escreva ("x", i, "=", numero * i, "\n")
+      }
+    }
+}
+  
