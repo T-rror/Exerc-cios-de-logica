@@ -1,0 +1,19 @@
+programa 
+{
+    funcao inicio ()
+       {
+          inteiro número 
+
+          escreva ("digite um número: ")
+          leia (número)
+
+          se (número % 2 == 0)
+          {
+             escreva (" o número é par ")
+          }
+          senao 
+          {
+             escreva (" o número é impar ")
+          }
+       }
+}
