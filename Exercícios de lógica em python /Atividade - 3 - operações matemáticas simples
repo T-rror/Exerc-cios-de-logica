@@ -1,0 +1,20 @@
+
+
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+
+
+soma = a + b
+subtracao = a - b
+produto = a * b
+
+if b != 0:
+    divisao = a / b
+else:
+    divisao = "Erro: Divisão por zero"
+
+
+print("Soma:", soma)
+print("Subtração:", subtracao)
+print("Produto:", produto)
+print("Divisão:", divisao)
