@@ -1,0 +1,9 @@
+def verificar_paridade(num):
+    if num % 2 == 0:
+        return f"O número {num} é par."
+    else:
+        return f"O número {num} é ímpar."
+
+
+numero = int(input("Digite um número: "))
+print(verificar_paridade(numero))
