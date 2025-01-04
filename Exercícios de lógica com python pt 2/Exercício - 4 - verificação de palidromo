@@ -1,0 +1,15 @@
+def eh_palindromo(texto):
+
+ texto = texto.lower().replace(" ", "")  # Remove espaços e converte para minúsculas
+
+return texto == texto[::-1]  # Verifica se é igual ao inverso
+
+palavra = input("Digite uma palavra ou frase: ")
+
+if eh_palindromo(palavra):
+
+print("É um palíndromo!")
+
+else:
+
+print("Não é um palíndromo!")
