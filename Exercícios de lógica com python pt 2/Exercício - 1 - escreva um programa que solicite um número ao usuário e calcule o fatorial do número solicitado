@@ -1,1 +1,7 @@
+def calcular_fatorial(n):
 
+return 1 if n == 0 else n * calcular_fatorial(n-1)
+
+num = int(input("Digite um número inteiro: "))
+
+print(f"O fatorial de {num} é: {calcular_fatorial(num)}")
