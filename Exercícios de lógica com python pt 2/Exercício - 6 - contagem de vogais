@@ -1,0 +1,9 @@
+def contar_vogais(frase):
+
+ vogais = "aeiou"
+
+return sum(1 for letra in frase.lower() if letra in vogais)
+
+frase = input("Digite uma frase: ")
+
+print(f"A frase contém {contar_vogais(frase)} vogais.")
