@@ -1,0 +1,19 @@
+import random
+
+resposta = random.randint(0, 100)
+
+def jogo_adivinhar():
+    print("Adivinhe o número")
+    resposta = random.randint(0, 100)
+    numero = -1
+    while numero != resposta:
+        numero = int(input("Digite um número: "))
+        if numero < resposta:
+            print("O número é maior")
+        elif numero > resposta:
+            print("O número é menor")
+        else:
+            print("Você acertou o número!!!")
+            return
+
+jogo_adivinhar()
