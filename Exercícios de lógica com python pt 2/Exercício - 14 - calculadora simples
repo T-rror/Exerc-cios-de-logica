@@ -1,0 +1,14 @@
+
+num1 = int(input("Encira primeiro numero: "))
+num2 = int(input("Encira segundo numenro: "))
+
+operation = input("Qual Operação Matematica ?")
+
+if operation == "+":
+    print(num1 + num2)
+elif operation == "-":
+    print(num1 - num2)
+elif operation == "/":
+    print(num1 / num2)
+elif operation == "*":
+    print(num1 * num2)
