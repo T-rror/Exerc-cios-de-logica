@@ -1,1 +1,2 @@
-# Exercicios de logica de programação para quem esta no coemço dos estudos
+# primeiros passos em logica de programação!
+
